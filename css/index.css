@@ -1,17 +1,17 @@
 body {
 	margin: 0;
 	font-family: 'Oxygen', sans-serif;
+	background-color: #F4F4F4;
 }
 
 .wrap {
-	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
 }
 
 h1 {
-	font-size: 45px;
+	font-size: 30px;
 	font-weight: lighter;
 	text-align: center;
 }
@@ -23,9 +23,8 @@ ul {
 
 li {
 	text-align: center;
-	display: inline-block;
-	width: 16%;
 	margin: 0;
+	margin-bottom: 30px;
 }
 
 /* unvisited link */
@@ -52,4 +51,19 @@ a:hover {
 a:active {
 	color: #000000;
 	text-decoration: none;
+}
+
+@media (min-width: 800px) {
+	.wrap {
+		width: 800px;
+	}
+
+	h1 {
+		font-size: 45px;
+	}
+
+	li {
+		display: inline-block;
+		width: 16%;
+	}
 }
