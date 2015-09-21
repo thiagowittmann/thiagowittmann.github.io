@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Gravity";
+  src: url("fonts/Gravity-Book.ttf");
+}
+
+@font-face {
+  font-family: "Gravity";
+  src: url("fonts/Gravity-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gravity";
+  src: url("fonts/Gravity-Light.ttf");
+  font-weight: lighter;
+}
+
+.wrap {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.leftCol {
+  width: 540px;
+  float: left;
+  padding-right: 50px;
+}
+
+.rightCol {
+  width: 310px;
+  float: left;
+}
+
+h1 {
+  font-family: 'Gravity';
+  font-size: 390%;
+  line-height: 120%;
+  letter-spacing: 4px;
+  color: #424242;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Gravity';
+  font-size: 220%;
+  color: #424242;
+  margin: 0;
+}
+
+p {
+  font-family: 'Gravity';
+  color: #424242;
+  font-size: 110%;
+  margin: 0;
+  letter-spacing: 0.5px;
+  line-height: 135%;
+}
+
+.header {
+  height: 190px;
+}
+
+.divider {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  line-height: 3px;
+  background-color: #aaa;
+  font-size: 0px;
+}
+
+.content {
+  font-size: 120%;
+  letter-spacing: 0.5px;
+  line-height: 145%;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+li {
+  font-family: 'Gravity';
+  color: #424242;
+  margin: 0;
+}
