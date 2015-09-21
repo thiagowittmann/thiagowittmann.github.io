@@ -9,12 +9,6 @@
   font-weight: bold;
 }
 
-@font-face {
-  font-family: "Gravity";
-  src: url("fonts/Gravity-Light.ttf");
-  font-weight: lighter;
-}
-
 .wrap {
   width: 900px;
   margin-left: auto;
@@ -54,6 +48,7 @@ p {
   color: #424242;
   font-size: 110%;
   margin: 0;
+  padding: 0;
   letter-spacing: 0.5px;
   line-height: 135%;
 }
@@ -89,4 +84,42 @@ li {
   font-family: 'Gravity';
   color: #424242;
   margin: 0;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gravity';
+}
+
+td {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.location {
+  font-size: 95%;
+}
+
+.city {
+  color: #777777;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.jobDescription {
+  margin-top: 7px;
+  font-size: 110%;
+}
+
+.date {
+  color: #666666;
+  width: 160px;
+}
+
+.item {
+  margin-bottom: 30px;
 }
