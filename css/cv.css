@@ -52,10 +52,10 @@ p {
   font-family: 'Gravity';
   color: #424242;
   font-size: 110%;
-  margin: 0;
+  margin: 5px 0px -5px 0px;
   padding: 0;
   letter-spacing: 0.5px;
-  line-height: 135%;
+  line-height: 150%;
 }
 
 .header {
