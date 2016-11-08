@@ -118,13 +118,13 @@ td {
 }
 
 .jobDescription {
-  margin-top: 7px;
-  font-size: 110%;
+  font-size: 95%;
 }
 
 .date {
   color: #666666;
   width: 160px;
+  font-size: 85%;
 }
 
 .item {
